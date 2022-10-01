@@ -47,22 +47,32 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
+      - label: "Sektioner på startsidan"
+        name: "frontpage_sections"
+        file: "src/_data/sections.yaml"
         fields:
-          - label: Nav Items
-            name: links
+          - label: Section items
+            name: sections
             widget: list
-            collapsed: false
+            collapsed: true
             fields:
-              - { label: Title, name: title, widget: string }
+              - { label: Titel, name: title, widget: string }
               - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/settings.yaml"
+              - { label: Beskrivning, name: desc, widget: markdown }
+      # Our pages e.g. About
+      - name: "home"
+        label: "Home"
+        file: "src/_data/home.yaml"
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+            name: "eleventyNavigation"
+            widget: "object"
+            fields:
+              - { label: "Key", name: "key", widget: "string" }
+              - { label: "Order", name: "order", widget: "number", default: 0 }
+          - { label: "Beskrivning", name: "headerDescription", widget: "markdown" }
+          - { label: "Varför Sagolunden", name: "whyPickUs", widget: "markdown" }

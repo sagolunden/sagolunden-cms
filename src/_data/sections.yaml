@@ -1,5 +1,5 @@
 ---
-links:
+sections:
   - title: Netlify CMS
     url: "https://www.netlifycms.org/"
     desc: Open source content management for your Git workflow

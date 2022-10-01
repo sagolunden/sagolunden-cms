@@ -2,6 +2,7 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+const marked = require('marked')
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -51,6 +52,22 @@ module.exports = function (eleventyConfig) {
     }
 
     return content;
+  });
+
+  eleventyConfig.addPairedShortcode("myShortcode", function(content) {
+    // Method A: ✅ This works fine
+    return content;
+  });
+
+
+  eleventyConfig.addNunjucksFilter("marked", function(value) { 
+      return marked.parse(value);
+   });
+
+
+
+    eleventyConfig.addNunjucksFilter("json", function(value) { 
+      return JSON.stringify(value, null, 2); 
   });
 
   // Let Eleventy transform HTML files as nunjucks

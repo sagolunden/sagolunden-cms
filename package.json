@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "npm-run-all --parallel css eleventy browsersync",
+    "start": "npm-run-all --parallel css eleventy browsersync proxy",
+    "proxy": "npx netlify-cms-proxy-server",
     "eleventy": "eleventy --watch",
     "debug": "set DEBUG=* & eleventy",
     "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "marked": "^4.1.1",
     "postcss": "^8.4.5"
   }
 }

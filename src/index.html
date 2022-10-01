@@ -1,22 +1,36 @@
 ---
 layout: default
-title: Neat Starter
+title: Föräldrakooperativet Sagolunden
 path: home
 ---
+<div
+  class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
+>
+  <header class="flex flex-col h-96 py-14 justify-center items-center">
+    <h1>
+      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+        {{ home.title }}
+      </strong>
+    </h1>
+    <h2 class="text-2xl">
+      {{ home.subtitle }}
+    </h2>
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
-  <h1>
-    Welcome to
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
-    </strong>
-  </h1>
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
-  </p>
+    <p class="container py-8">{{ home.headerDescription | marked | safe }}</p>
 
+  </header>
+  
+
+
+  
+
+  <section class="flex flex-col center">
+    <h3>Varför Sagolunden?</h3>
+    <div class="md:container center">
+      {{ home.whyPickUs | marked | safe }}
+    </div>  
+  </section>
+  
   {% include "./_includes/partials/content.html" %}
 </div>
