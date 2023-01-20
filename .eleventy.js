@@ -2,7 +2,8 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
-const marked = require('marked')
+const marked = require("marked");
+const { minify } = require("terser");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -31,6 +32,8 @@ module.exports = function (eleventyConfig) {
     "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
     "./node_modules/prismjs/themes/prism-tomorrow.css":
       "./static/css/prism-tomorrow.css",
+      "node_modules/aos/dist/aos.js": "./static/js/aos.js",
+      "node_modules/aos/dist/aos.css": "./static/css/aos.css"
   });
 
   // Copy Image Folder to /_site
@@ -38,7 +41,7 @@ module.exports = function (eleventyConfig) {
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
-
+  eleventyConfig.addPassthroughCopy("./src/favicon.svg");
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead
@@ -54,22 +57,32 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPairedShortcode("myShortcode", function(content) {
+  eleventyConfig.addPairedShortcode("myShortcode", function (content) {
     // Method A: ✅ This works fine
     return content;
   });
 
-
-  eleventyConfig.addNunjucksFilter("marked", function(value) { 
-      return marked.parse(value);
-   });
-
-
-
-    eleventyConfig.addNunjucksFilter("json", function(value) { 
-      return JSON.stringify(value, null, 2); 
+  eleventyConfig.addNunjucksFilter("marked", function (value) {
+    return marked.parse(value);
   });
 
+  eleventyConfig.addNunjucksFilter("json", function (value) {
+    return JSON.stringify(value, null, 2);
+  });
+
+  eleventyConfig.addNunjucksAsyncFilter(
+    "jsmin",
+    async function (code, callback) {
+      try {
+        const minified = await minify(code);
+        callback(null, minified.code);
+      } catch (err) {
+        console.error("Terser error: ", err);
+        // Fail gracefully.
+        callback(null, code);
+      }
+    }
+  );
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {

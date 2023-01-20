@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Josefin+Sans&display=swap");
+@import "./node_modules/aos/dist/aos.css";
+
 /*Your Custom CSS Goes here*/
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-3xl tracking-tighter mb-3 lg:text-6xl;
 }
 
 h3 {
@@ -17,4 +20,22 @@ h3 {
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fffce1 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", cursive;
+}
+
+p {
+  line-height: 1.5;
+  margin: 25px 0px;
 }

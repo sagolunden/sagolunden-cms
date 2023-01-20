@@ -6,6 +6,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      backgroundImage: {
+        'hero-image': "url('../img/hero-image.png')",
+      }
     },
   },
   variants: {},

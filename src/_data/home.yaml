@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Föräldrakooperativet Sagolunden
+title: Sagolunden
 subtitle: Den lilla förskolan med det stora engagemanget
 date: 2016-01-01T00:00:00.000Z
 permalink: /
@@ -11,19 +11,11 @@ headerDescription: >-
   **Sagolunden** är en föräldrakooperativ förskola som ligger nära
   Kaggeledstorget i östra Göteborg.
 
-
-  Vi har varit igång sedan 1991 och har 23 härliga barn i åldrarna 1-5 år fördelade på de två avdelningarna Sagan och Lunden.
-whyPickUs: >-
-  * Små barngrupper.
-
-  * Hög personaltäthet med engagerade pedagoger.
-
-  * Trygghet, gemenskap och ett socialt nätverk. ”Alla känner alla”.
-
-  * Fokus på miljö- och hållbarhetsfrågor och strävan efter att bli en giftfri förskola.
-
-  * Flera smårum för pyssel och lek i små grupper.
-
-  * Teater- och museibesök flera gånger per termin.
-
-  * Pedagoger som fortbildats inom och medvetet arbetar med genusfrågor.
+  Vi har varit igång sedan 1991 och barn i åldrarna 1-5 år fördelade på de två avdelningarna Sagan och Lunden.
+whyPickUs:
+  - title: Små barngrupper
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+  - title: Hög personaltäthet
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+  - title: Gemenskap
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip

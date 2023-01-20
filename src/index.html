@@ -4,33 +4,52 @@ title: Föräldrakooperativet Sagolunden
 path: home
 ---
 <div
-  class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
+  class="mx-auto flex flex-col items-center"
 >
-  <header class="flex flex-col h-96 py-14 justify-center items-center">
-    <h1>
-      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-        {{ home.title }}
-      </strong>
-    </h1>
-    <h2 class="text-2xl">
-      {{ home.subtitle }}
-    </h2>
+  <header class="flex flex-col container w-full py-32 px-16">
+    <div class="w-1/2">
+      <h1>
+        {{ home.subtitle }}
+      </h1>
+      <p class="container">{{ home.headerDescription | marked | safe }}</p>
+      <button class="bg-green-300 hover:bg-green-500 py-2 px-6 my-5 rounded-full">Ansök</button>
+    </div> 
 
-
-    <p class="container py-8">{{ home.headerDescription | marked | safe }}</p>
 
   </header>
   
 
 
+  <section class="flex container center" data-aos="fade-up">
+      {% for reason in home.whyPickUs %}
+      <div class="h-full p-10">
+        <h3>
+          {{ reason.title }}
+        </h3>
+        <p>
+          {{ reason.desc }}
+        </p>
+      </div>
+      {% endfor %}
+  </section>
+ 
   
 
-  <section class="flex flex-col center">
-    <h3>Varför Sagolunden?</h3>
-    <div class="md:container center">
-      {{ home.whyPickUs | marked | safe }}
-    </div>  
-  </section>
-  
-  {% include "./_includes/partials/content.html" %}
+  <div class="flex w-full bg-white">
+    <div class="flex flex-col items-center container m-auto">
+      {% if sections %} {% for section in sections.sections %}
+        <div class="flex odd:flex-row even:flex-row-reverse gap-16 px-12 py-24  w-full m-auto" data-aos="fade-up">
+          <div class="w-1/2">
+            <div class="container">
+              <h3>{{section.title}}</h3>
+              <p>{{ section.desc | marked | safe }}</p>
+            </div>
+          </div>
+          <div class="w-1/2"><img class="rounded-3xl" src="{{ section.image }}" /></div>
+        </a>
+      </div>
+      {% endfor %} {% endif %}
+    </div>
+  </div> 
+
 </div>

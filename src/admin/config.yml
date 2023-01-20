@@ -12,24 +12,46 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
+  - label: "Kooperativet"
+    name: "cooperative"
+    files:
+      - label: "Arbetsgrupper"
+        name: "workgroups"
+        file: "src/_data/workgroups.yaml"
+        editor:
+          preview: false
+        fields:
+          - label: "Arbetsgrupper"
+            name: "workgroups"
+            widget: list
+            fields:
+              - { label: "Arbetsgrupp", name: "name", widget: "string" }
+              - { label: "Beskrivning", name: "desc", widget: "string" }
+              - label: "Medlemmar"
+                name: "members"
+                widget: list
+                fields:
+                  - { label: "Namn", name: "name", widget: "string" }
+                  - {
+                      label: "Ytterliggare ansvar",
+                      name: "additional_role",
+                      widget: "string",
+                    }
+  - label: "Personal"
+    name: "personell"
+    files:
+      - label: "Pedagoger"
+        name: "educators"
+        file: "src/_data/educators.yaml"
+        editor:
+          preview: false
+        fields:
+          - label: "Pedagoger"
+            name: "educators"
+            widget: list
+            fields:
+              - { label: "Namn", name: "name", widget: "string" }
+              - { label: "Beskrivning", name: "desc", widget: "string" }
   - label: "Settings"
     name: "settings"
     editor:
@@ -74,5 +96,16 @@ collections:
             fields:
               - { label: "Key", name: "key", widget: "string" }
               - { label: "Order", name: "order", widget: "number", default: 0 }
-          - { label: "Beskrivning", name: "headerDescription", widget: "markdown" }
-          - { label: "Varför Sagolunden", name: "whyPickUs", widget: "markdown" }
+          - {
+              label: "Beskrivning",
+              name: "headerDescription",
+              widget: "markdown",
+            }
+          - label: Varför Sagolunden
+            name: whyPickUs
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beskrivning, name: desc, widget: markdown }
