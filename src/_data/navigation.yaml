@@ -1,7 +1,11 @@
 items:
   - text: Hem
     url: /
-  - text: Pedagoger
-    url: /educators
-  - text: Arbetsgrupper
+  - text: Verksamheten
+    url: /organisation
+  - text: Pedagogik
+    url: /pedagogy
+  - text: Föräldrainsats
     url: /workgroups
+  - text: Kontakta oss
+    url: "#contact"

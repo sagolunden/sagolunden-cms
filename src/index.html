@@ -1,20 +1,22 @@
 ---
 layout: default
-title: Föräldrakooperativet Sagolunden
+title: Sagolunden | Den lilla förskolan med det stora engagemanget
 path: home
 ---
 <div
   class="mx-auto flex flex-col items-center"
 >
-  <header class="flex flex-col container w-full py-32 px-16">
+  <header class="flex flex-row container w-full py-32 px-16">
     <div class="w-1/2">
       <h1>
         {{ home.subtitle }}
       </h1>
       <p class="container">{{ home.headerDescription | marked | safe }}</p>
-      <button class="bg-green-300 hover:bg-green-500 py-2 px-6 my-5 rounded-full">Ansök</button>
+      <button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full">Ansök</button>
     </div> 
-
+    <div class="w-1/2" style="z-index:-1;">
+      <img style="margin:-200px auto;height:800px" src="/static/img/illustration.png" />
+    </div>
 
   </header>
   

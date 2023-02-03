@@ -16,21 +16,21 @@ sections:
     image: static/img/pedagogy.jpg
     url: https://www.11ty.dev/
     desc: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipEleventy
-      is a simpler static site generator.
+      Vad innebär det att vara med i ett föräldrakooperativ? Du som förälder har
+      städjour cirka en dag i månaden, är med i en arbetsgrupp och deltar i
+      olika familjeaktiviteter. Vi följer maxtaxans regler
+      [](https://www.sagolunden.se/avgifter.html)som ni hittar här
+      \[placeholder]. 
 
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipEleventy is a simpler static site generator.
+      [Mer om arbetsinsatsen.](https://www.sagolunden.se/foraldra.html)
   - title: En hållbar miljö
     image: static/img/pedagogy.jpg
     url: https://github.com/alpinejs/alpine
-    desc: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipEleventy
-      is a simpler static site generator.
-
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipEleventy is a simpler static site generator.
+    desc: Vi har ett stort miljöfokus i verksamheten där vi arbetar med hållbarhet,
+      återvinning och kretslopp. Vi strävar efter att vara en giftfri förskola
+      och har bland annat bytt ut den mesta plasten mot giftfria alternativ. Vi
+      använder miljövänliga och icke-allergiframkallande rengöringsprodukter och
+      väljer helst ekologiska alternativ där det är möjligt. I inköp till våra
+      måltider är det ekologiska vårt första val i så lång utsträckning som
+      möjligt.
