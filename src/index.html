@@ -6,7 +6,7 @@ path: home
 <div
   class="mx-auto flex flex-col items-center"
 >
-  <header class="flex flex-col md:flex-row container w-full py-32 px-16">
+  <header class="flex flex-col md:flex-row text-center container w-full Md:py-32 px-16">
     <div class="md:w-1/2">
       <h1>
         {{ home.subtitle }}
@@ -14,17 +14,17 @@ path: home
       <p class="container">{{ home.headerDescription | marked | safe }}</p>
       <button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full"><a href="https://cloud.sagolunden.se/apps/forms/xLtCMmZ82od4wEEz">Ansök</a></button>
     </div> 
-    <div class="md:w-1/2" style="z-index:-1;">
-      <img style="margin:-200px auto;height:800px" src="/static/img/illustration.png" />
+    <div class="md:w-1/2 m-auto" style="z-index:-1;">
+      <img class="h-96 md:h-full" src="/static/img/illustration.png" />
     </div>
 
   </header>
   
 
 
-  <section class="flex container center" data-aos="fade-up">
+  <section class="flex-wrap md:flex container center" data-aos="fade-up">
       {% for reason in home.whyPickUs %}
-      <div class="h-full p-10">
+      <div class="w-full text-center md:w-auto h-full px-10 md:p-10">
         <h3>
           {{ reason.title }}
         </h3>
@@ -40,14 +40,15 @@ path: home
   <div class="flex w-full bg-white">
     <div class="flex flex-col items-center container m-auto">
       {% if sections %} {% for section in sections.sections %}
-        <div class="flex odd:flex-row even:flex-row-reverse gap-16 px-12 py-24  w-full m-auto" data-aos="fade-up">
-          <div class="w-1/2">
+        <div class="flex-wrap md:flex md:odd:flex-row md:even:flex-row-reverse gap-16 px-12 py-8 md:py-24  w-full m-auto" data-aos="fade-up">
+          
+          <div class="md:w-1/2"><img class="rounded-3xl" src="{{ section.image }}" /></div>
+          <div class="md:w-1/2 py-8">
             <div class="container">
               <h3>{{section.title}}</h3>
               <p>{{ section.desc | marked | safe }}</p>
             </div>
           </div>
-          <div class="w-1/2"><img class="rounded-3xl" src="{{ section.image }}" /></div>
         </a>
       </div>
       {% endfor %} {% endif %}
