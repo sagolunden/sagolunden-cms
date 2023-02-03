@@ -57,11 +57,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPairedShortcode("myShortcode", function (content) {
-    // Method A: ✅ This works fine
-    return content;
-  });
-
   eleventyConfig.addNunjucksFilter("marked", function (value) {
     return marked.parse(value);
   });
