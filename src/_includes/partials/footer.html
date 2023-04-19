@@ -1,5 +1,27 @@
+<div
+  id="contact"
+  class="flex flex-col gap-8 text-center w-full m-auto pt-12 pb-4"
+>
+  <div class="w-64 m-auto">
+    <h2>Kontakt</h2>
+    <div>{{contact.description}}</div>
+  </div>
+  <div class="w-64 m-auto">
+    <h2>Adress</h2>
+    <ul>
+      <li>{{contact.address}}</li>
+      <li>{{contact.county }} {{contact.postalCode}}</li>
+    </ul>
+  </div>
+  <div>
+    <div class="flex justify-center">
+      {% for socialMediaItem in contact.socialMedia %}
+      <a href="{{socialMediaItem.url}}" class="mx-2"
+        ><img src="{{socialMediaItem.icon}}" width="32" height="32"
+      /></a>
+      {% endfor %}
+    </div>
+  </div>
 
-
-<div id="contact" class="text-center w-full py-4">
-    <small class="text-gray-500">Copyright © {{ title }}
+  <small class="text-gray-500">Copyright © Sagolunden 2023</small>
 </div>

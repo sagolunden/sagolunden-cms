@@ -6,8 +6,8 @@ path: home
 <div
   class="mx-auto flex flex-col items-center"
 >
-  <header class="flex flex-col md:flex-row text-center md:text-left container w-full md:py-14 px-16">
-    <div class="md:w-1/2">
+  <header class="flex flex-col md:flex-row text-center md:text-left container w-full px-16">
+    <div class="md:w-1/2 md:m-auto">
       <h1>
         {{ home.subtitle }}
       </h1>
@@ -15,14 +15,14 @@ path: home
       <button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full"><a href="https://cloud.sagolunden.se/apps/forms/xLtCMmZ82od4wEEz">Ansök</a></button>
     </div> 
     <div class="md:w-1/2 m-auto" style="z-index:-1;">
-      <img class="h-96 md:h-fit md:-mt-24" src="/static/img/illustration.png" />
+      <img class="m-auto md:w-96 md:-mt-12" height="128px" src="/static/img/illustration.png" />
     </div>
 
   </header>
   
 
 
-  <section class="flex-wrap md:flex container center md:my-5" data-aos="fade-up">
+  <section class="flex-wrap md:flex container center" data-aos="fade-up">
       {% for reason in home.whyPickUs %}
       <div class="w-full text-center md:w-1/3 h-full px-10 md:p-10">
         <h3>
@@ -42,11 +42,12 @@ path: home
       {% if sections %} {% for section in sections.sections %}
         <div class="block md:flex md:odd:flex-row md:even:flex-row-reverse gap-16 px-12 py-8 md:py-24 w-full m-auto" data-aos="fade-up">
           
-          <div class="md:w-1/2"><img class="rounded-3xl" src="{{ section.image }}" /></div>
+          <div class="md:w-1/2 m-auto"><img class="rounded-3xl" src="{{ section.image }}" /></div>
           <div class="md:w-1/2 py-8">
             <div class="container">
               <h3>{{section.title}}</h3>
               <p>{{ section.desc | marked | safe }}</p>
+              <button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full"><a >Läs mer</a></button>
             </div>
           </div>
         </a>

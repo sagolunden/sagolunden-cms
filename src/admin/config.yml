@@ -109,3 +109,20 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Beskrivning, name: desc, widget: markdown }
+      - name: "contact"
+        label: "Contact"
+        file: "src/_data/contact.yaml"
+        fields:
+          - { label: "Description", name: "description", widget: "string"}
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Postkod", name: "postalCode", widget: "string" }
+          - { label: "Ort", name: "county", widget: "string"}
+          - { label: "Tel", name: "telephone", widget: "string"}
+          - label: Social Media
+            name: socialMedia
+            widget: list
+            allow_add: true
+            fields:
+              - { label: Name, name: name, widget: string}
+              - { label: Url, name: url, widget: string}
+              - { label: Icon, name: icon, widget: image}

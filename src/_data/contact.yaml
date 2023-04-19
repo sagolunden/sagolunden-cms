@@ -1,0 +1,13 @@
+description: "Du är hjärtligt välkommen att besöka oss och se hur lokalerna ser
+  ut, här finns våra kontaktuppgifter. "
+address: Ättekullen 1
+postalCode: 416 74
+county: Göteborg
+telephone: 0702-567199
+socialMedia:
+  - name: Instagram
+    url: https://www.instagram.com/foraldrakooperativetsagolunden/
+    icon: /static/img/instagram.svg
+  - name: Facebook
+    icon: /static/img/facebook.svg
+    url: https://www.facebook.com/people/F%C3%B6r%C3%A4ldrakooperativet-Sagolunden/100047440135954/
