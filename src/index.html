@@ -34,22 +34,26 @@ path: home
       </div>
       {% endfor %}
   </section>
- 
   
 
   <div class="flex w-full bg-white">
     <div class="flex flex-col items-center container m-auto">
       {% if sections %} {% for section in sections.sections %}
-        <div class="block md:flex md:odd:flex-row md:even:flex-row-reverse gap-16 px-12 py-8 md:py-24 w-full m-auto" data-aos="fade-up">
+        <div id="{{section.id}}" class="block md:flex md:odd:flex-row md:even:flex-row-reverse gap-16 px-12 py-8 md:py-24 w-full m-auto" data-aos="fade-up" >
           
-          <div class="md:w-1/2 m-auto"><img class="rounded-3xl" src="{{ section.image }}" /></div>
+          {% if section.image %}
+            <div class="md:w-1/2 m-auto"><img class="rounded-3xl" src="{{ section.image }}" /></div>
           <div class="md:w-1/2 py-8">
-            <div class="container">
-              <h3>{{section.title}}</h3>
-              <p>{{ section.desc | marked | safe }}</p>
-              <button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full"><a >Läs mer</a></button>
-            </div>
+          <div class="container">
+          {% else %}
+          <div class="md:w-full py-8">
+          <div class="container text-center">
+          {% endif %}
+            <h3>{{section.title}}</h3>
+            <p>{{ section.desc | marked | safe }}</p>
+            <a href="{{section.url}}"><button class="bg-green-300 hover:bg-green-500 py-2 px-6 rounded-full">Läs mer</button></a>
           </div>
+        </div>
         </a>
       </div>
       {% endfor %} {% endif %}

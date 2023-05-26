@@ -1,17 +1,4 @@
 sections:
-  - title: Pedagogik
-    image: static/img/pedagogy.jpg
-    url: https://www.netlifycms.org/
-    desc: >-
-      \- Vi utgår från barnen när vi planerar vår verksamhet och vår miljö. Vi
-      ändrar kontinuerligt efter gruppens behov och intressen. En av Sagolundens
-      viktigaste grundstenar är de små barngrupperna och den höga
-      personaltätheten som det medför. Sagolunden är en trygg miljö där både
-      stora och små ska känna sig välkomna. Pedagogerna är alltid nära barnen
-      och möter dem på deras nivå. 
-
-
-      \- Vårt mål är att möta varje barn utifrån deras individuella behov och vi vill att alla barn ska känna sig sedda och hörda varje dag. Vi planerar och följer upp vår verksamhet kontinuerligt utifrån vår läroplan lpfö 18. Uppföljning sker bland annat genom dokumentation i stort och smått. Dokumentation kan man som vårdnadshavare lätt ta del av via vårat digitala forum Tyra, Sagolundsmolnet samt analogt i vår pedagogiska miljö.
   - title: Föräldrainsats
     image: static/img/pedagogy.jpg
     url: /parents
@@ -24,6 +11,7 @@ sections:
 
 
       [Mer om arbetsinsatsen.](https://www.sagolunden.se/foraldra.html)
+    id: parents
   - title: En hållbar miljö
     image: static/img/pedagogy.jpg
     url: https://github.com/alpinejs/alpine
@@ -34,3 +22,22 @@ sections:
       väljer helst ekologiska alternativ där det är möjligt. I inköp till våra
       måltider är det ekologiska vårt första val i så lång utsträckning som
       möjligt.
+    id: environment
+  - title: Pedagogik
+    image: ""
+    url: https://www.netlifycms.org/
+    desc: >-
+      > Vi utgår från barnen när vi planerar vår verksamhet och vår miljö. Vi
+      ändrar kontinuerligt efter gruppens behov och intressen. En av Sagolundens
+      viktigaste grundstenar är de små barngrupperna och den höga
+      personaltätheten som det medför. Sagolunden är en trygg miljö där både
+      stora och små ska känna sig välkomna. Pedagogerna är alltid nära barnen
+      och möter dem på deras nivå. 
+
+      >
+
+      > Vårt mål är att möta varje barn utifrån deras individuella behov och vi vill att alla barn ska känna sig sedda och hörda varje dag. Vi planerar och följer upp vår verksamhet kontinuerligt utifrån vår läroplan lpfö 18. Uppföljning sker bland annat genom dokumentation i stort och smått. Dokumentation kan man som vårdnadshavare lätt ta del av via vårat digitala forum Tyra, Sagolundsmolnet samt analogt i vår pedagogiska miljö.
+
+
+      Sagolundens förskolechef Marie Andersson
+    id: pedagogy
