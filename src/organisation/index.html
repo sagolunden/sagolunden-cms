@@ -3,5 +3,14 @@ layout: default
 title: Sagolunden | Verksamheten
 path: organisation
 ---
+<div class="container mx-auto w-10/12 md:w-1/2">
+    <h1>Verksamheten</h1>
+    {% if workgroups %} {% for workgroup in workgroups.workgroups %}
 
-<h1>Verksamheten</h1>
+    <div>
+        <h2>{{ workgroup.name }}</h2>
+        <p>{{ workgroup.desc | marked | safe }}</p>
+    </div>
+
+    {% endfor %} {% endif %}
+</div>

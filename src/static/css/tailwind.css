@@ -11,8 +11,18 @@ h1 {
   @apply text-3xl tracking-tighter mb-3 lg:text-6xl;
 }
 
-h3 {
+
+h2 {
   @apply text-2xl font-bold mb-3;
+}
+
+h3 {
+  @apply text-xl font-bold mb-3;
+}
+
+ul {
+  @apply list-disc;
+  margin-left: 35px;
 }
 
 /* Syntax Highlighting*/
