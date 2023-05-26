@@ -1,4 +1,60 @@
 workgroups:
+  - name: Aktivitetsgruppen
+    desc: >-2
+        * Den av stämman utsedda sammankallande ansvarar för att kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten.  
+        * Ansvarar för bokning och planering av kick-off helg i augusti.       
+        * Har regelbunden kontakt med aktivitetsgruppsansvarig i personalen.      
+        * Ansvarar för minst en aktivitet per år för vårdnadshavare och personal på kvällstid utan barn. T.ex Aw, bowling, fest. 
+        * Ansvarar för och arrangerar aktiviteter för vårdnadshavare och barn. Stäm av med personalen ang starttid. Meddela alla vårdnadshavare om verksamheten stänger före ordinarie tid. 
+          * Julpyssel i slutet av november/början av december. 
+          * Familjeutflykt i Göteborgsområdet i april/maj. Start kl. 	14.30.         
+          * Gårdsfest på gården i juni. Planeras tillsammans med personalen. Starttid kl. 15. 
+        * Stäm av matinköp inför aktivitet med förskolans matpolicy och deltagarnas allergier/ specialkost.    
+        * Föreslå och genomföra andra aktiviteter själva eller tillsammans med personalen efter godkännande från styrelsen.     
+      * Skriv rapport om gruppens arbete till varje styrelsemöte.      
+
+      * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.       
+
+      * Föra mötesanteckningar på alla möten. Anteckningarna lagras i gruppens mapp på nextcloud.
+  - desc: >-2
+        * Ansvarar för allmänt underhåll av lokalerna och fast inredning.
+        * Ansvarar för snöskottning enligt rullande schema och sopning vid behov.
+        * Ansvarar för förskolans utrustning och fast interiör på gården, samt för skogen. Medlemmarna fixar själva eller tar kontakt med berörd part, BRF eller kommunen.
+        * Ansvarar för underhåll av diskmaskinen.
+        * Har koll på och dokumenterar vem som ansvarar för vad gällande skogen, gården och interiör. Förskolan, BRF eller kommunen.
+        * Inköp av inventarier i enlighet med inventarielistan.
+        * Slänger skräp på tippen.
+        * Ansvarar för att en egenkontroll av skogen genomförs årligen, se avtalet för mer information.
+        * Konstruerar, bygger och syr vid behov.
+        * Ansvarar för att planera och genomföra en obligatorisk fixardag med en representant per familj per år. Har möjlighet att kalla till ytterligare en fixardag per år, dock ej obligatorisk.
+        * Fixarlista – uppdateras och betas av kontinuerligt av gruppen och ansvarig personal.
+        * Skriv rapport om gruppens arbete till varje styrelsemöte.
+        * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.
+        * Den av stämman utsedda sammankallande ansvarar för att:
+          * kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten. Mötesanteckningar sparas i gruppens mapp på Nextcloud.
+          * blir årligen tilldelad en budget av kassören som gruppen ansvarar för att följa.
+          * administrera Sagolundens företagskonton på Jula och Byggmax.
+          * ha regelbunden kontakt med fixargruppsansvarig i personalen.
+    name: Fixargruppen
+  - name: Miljögruppen
+    desc: >-2
+        * Den av stämman utsedda sammankallande ansvarar för att kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten.
+        * Ansvarar för att följa upp och utvärdera städrutiner.
+        * Ansvarar för att introducera och gå igenom städrutinerna med nya familjer.
+        * Ansvara för att följa upp och utvärdera avfallshanteringen.
+        * Ansvara för, följa upp och utvärdera att miljöpolicyn följs.
+        * Uppdatera kemikalieförteckningen om nya kemikalier förs in.
+        * Tvättar lakan, kuddöverdrag, filtar och den tvätt som finns i korgen varannan vecka. (Moppar och trasor tvättas av jouren enligt schema)
+        * Dammsugaren
+        * Inköp av städmaterial (Från Magnusson & Freij), sängkläder, porslin, bestick och köksinventarier vid behov. (Se lista)
+        * Organiserar en städhelg per termin. Obligatorisk för alla medlemmar.
+        * Matt-tvätt. Samlingsmattorna och hallmattorna lämnas in för tvätt en gång per år på våren. Övriga mattor tvättas av gruppen, lämnas in vid behov.
+        * Bona golven på våren.
+        * Kontakt med ABIS (Företag som medlemmarna kan anlita för lokalvård)
+        * Föra mötesanteckningar på alla möten. Anteckningarna lagras i gruppens mapp på nextcloud.
+        * Skriv rapport om gruppens arbete till varje styrelsemöte.
+        * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.
+        * Blir årligen tilldelad en budget av kassören som gruppen ansvarar för att följa.
   - name: Styrelsen
     desc: >-
       Styrelsen har det övergripande ansvaret för föreningens verksamhet och
@@ -226,59 +282,99 @@ workgroups:
       * Avge en rapport från verksamhet och personal och ta del av de frågor som rör detsamma. 
 
       * Meddela och delge viktiga dokument som utvecklingsplaner, plan mot kränkande behandling och utvärderingar. Förmedlar om någon form av kränkning, incident eller orosanmälan har gjorts.
-  - desc: >-2
-        * Ansvarar för allmänt underhåll av lokalerna och fast inredning.
-        * Ansvarar för snöskottning enligt rullande schema och sopning vid behov.
-        * Ansvarar för förskolans utrustning och fast interiör på gården, samt för skogen. Medlemmarna fixar själva eller tar kontakt med berörd part, BRF eller kommunen.
-        * Ansvarar för underhåll av diskmaskinen.
-        * Har koll på och dokumenterar vem som ansvarar för vad gällande skogen, gården och interiör. Förskolan, BRF eller kommunen.
-        * Inköp av inventarier i enlighet med inventarielistan.
-        * Slänger skräp på tippen.
-        * Ansvarar för att en egenkontroll av skogen genomförs årligen, se avtalet för mer information.
-        * Konstruerar, bygger och syr vid behov.
-        * Ansvarar för att planera och genomföra en obligatorisk fixardag med en representant per familj per år. Har möjlighet att kalla till ytterligare en fixardag per år, dock ej obligatorisk.
-        * Fixarlista – uppdateras och betas av kontinuerligt av gruppen och ansvarig personal.
-        * Skriv rapport om gruppens arbete till varje styrelsemöte.
-        * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.
-        * Den av stämman utsedda sammankallande ansvarar för att:
-          * kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten. Mötesanteckningar sparas i gruppens mapp på Nextcloud.
-          * blir årligen tilldelad en budget av kassören som gruppen ansvarar för att följa.
-          * administrera Sagolundens företagskonton på Jula och Byggmax.
-          * ha regelbunden kontakt med fixargruppsansvarig i personalen.
-    name: Fixargruppen
-  - name: Miljögruppen
-    desc: >-2
-        * Den av stämman utsedda sammankallande ansvarar för att kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten.
-        * Ansvarar för att följa upp och utvärdera städrutiner.
-        * Ansvarar för att introducera och gå igenom städrutinerna med nya familjer.
-        * Ansvara för att följa upp och utvärdera avfallshanteringen.
-        * Ansvara för, följa upp och utvärdera att miljöpolicyn följs.
-        * Uppdatera kemikalieförteckningen om nya kemikalier förs in.
-        * Tvättar lakan, kuddöverdrag, filtar och den tvätt som finns i korgen varannan vecka. (Moppar och trasor tvättas av jouren enligt schema)
-        * Dammsugaren
-        * Inköp av städmaterial (Från Magnusson & Freij), sängkläder, porslin, bestick och köksinventarier vid behov. (Se lista)
-        * Organiserar en städhelg per termin. Obligatorisk för alla medlemmar.
-        * Matt-tvätt. Samlingsmattorna och hallmattorna lämnas in för tvätt en gång per år på våren. Övriga mattor tvättas av gruppen, lämnas in vid behov.
-        * Bona golven på våren.
-        * Kontakt med ABIS (Företag som medlemmarna kan anlita för lokalvård)
-        * Föra mötesanteckningar på alla möten. Anteckningarna lagras i gruppens mapp på nextcloud.
-        * Skriv rapport om gruppens arbete till varje styrelsemöte.
-        * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.
-        * Blir årligen tilldelad en budget av kassören som gruppen ansvarar för att följa.
-  - name: Aktivitetsgruppen
-    desc: >-2
-        * Den av stämman utsedda sammankallande ansvarar för att kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten.  
-        * Ansvarar för bokning och planering av kick-off helg i augusti.       
-        * Har regelbunden kontakt med aktivitetsgruppsansvarig i personalen.      
-        * Ansvarar för minst en aktivitet per år för vårdnadshavare och personal på kvällstid utan barn. T.ex Aw, bowling, fest. 
-        * Ansvarar för och arrangerar aktiviteter för vårdnadshavare och barn. Stäm av med personalen ang starttid. Meddela alla vårdnadshavare om verksamheten stänger före ordinarie tid. 
-          * Julpyssel i slutet av november/början av december. 
-          * Familjeutflykt i Göteborgsområdet i april/maj. Start kl. 	14.30.         
-          * Gårdsfest på gården i juni. Planeras tillsammans med personalen. Starttid kl. 15. 
-        * Stäm av matinköp inför aktivitet med förskolans matpolicy och deltagarnas allergier/ specialkost.    
-        * Föreslå och genomföra andra aktiviteter själva eller tillsammans med personalen efter godkännande från styrelsen.     
-      * Skriv rapport om gruppens arbete till varje styrelsemöte.      
+  - name: Sidouppdrag
+    desc: >-
+      **Revisor**
 
-      * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.       
+      En gång per år tittar revisorn på den totala verksamheten och ser hur den fungerar. Ser dokumenten rätt ut och är de rätt arkiverade? Revisorn gör olika nedslag i verksamhetens dokumentation. Revisorn samt hens ev. respektive får inte sitta med i styrelsen. 
 
-      * Föra mötesanteckningar på alla möten. Anteckningarna lagras i gruppens mapp på nextcloud.
+
+      **Matansvarig**
+
+
+      Ansvarar för kontakten med cateringfirman som levererar lunchmaten och ser då och då över andra alternativ. 
+
+
+      * Ansvarar för kommunkontakten vad det gäller livsmedel och livsmedels-hantering. 
+
+      * Ansvarar för inventering samt kassering av utgången mat i samband med terminsslut. 
+
+      * Ansvarar för köket tillsammans med personalen. Panta returflaskor och burkar 
+
+      * Mellanmålsmenyn 
+
+      * Inköp av porslin vid behov
+
+      * Avfrostning av frysar 
+
+      * Förtäring till föreningsmöten och föräldraforum 
+
+      * Städning av kök 
+
+
+      **Kontaktperson BRF/hyresvärd**
+
+      Kontaktpersonen sköter kontakten med BRF Ättekullen, som vi hyr lokalerna av. Hen brukar även vara med i Fixargruppen eftersom uppdragen hör ihop.
+
+
+      **Brandskyddsansvarig**
+
+      Brandskyddsansvarig har delegerats ansvar för organisationens brandskydd och organiserar, planerar samt leder brandsäkerhets-arbetet med ansvar för systematiskt brandskyddsarbete, genomför brandronder m.m.
+
+
+      **Valberedning**
+
+      Valberedningen har till uppgift att välja ut föräldrar för både styrelsearbete, som arbetsgrupper. 
+
+
+      Målet är att försöka finna arbetsrollfördelningar som passar en förälders egenskaper men också intresse. 
+
+      Tilldelas man en arbetsroll man inte trivs med, behöver man inte vara orolig över att vara "fast" i den för länge, utan då försöker valberedningen se över annan lämplig lösning.
+
+      Valberedningen ska föreslå personer till dessa arbetsgrupper/funktioner:
+
+
+      Dessa roller/grupper utser valberedningen:
+
+
+      * Styrelsen: ordförande, vice ordförande, sekreterare, kassör,     rekryteringsansvarig, personalansvarig
+
+      * Revisor & revisorsuppleant
+
+      * Fixargruppen
+
+      * Aktivitetsgruppen
+
+      * Miljögruppen
+
+      * Matansvarig
+
+      * IT-ansvarig
+
+      * Kontaktperson till brf:n (bör vara någon i fixargruppen)
+
+      * Kontaktperson städbolag
+
+      * Brandskyddsansvarig
+
+
+      Valberedningens uppgifter
+        * I mars påbörjas arbetet genom att stämma av med förskolerektor hur hen har upplevt de olika arbetsgrupperna/rollerna. Har hen input att ge? Även stämma av med nuvarande grupper hur de upplever att grupperna fungerat, finns det önskemål på att byta etc. 
+        * I maj ska ett första förslag vara klart som presenteras för styrelsen för ev synpunkter
+        * I juni sker överlämning (ska vara klart innan midsommar).
+      När terminen startar ska alla arbetsgrupper ha inbokade uppstartsmöten som ska ske innan augusti månads slut.
+
+
+      **IT-ansvarig**
+
+      Den IT-ansvariga ser till så att förskolans internet, telefoner och datorer fungerar samt har hand om maillistor, Nextcloud och Discourse och att uppdatera och skicka ut kontaktlistan. Ansvarig för att uppdatera webben vid behov. 
+
+
+      **Kontakt med städbolag**
+
+      Föreningen utser en person som är huvudkontaktperson gentemot den städfirma vi anlitar. Om det framkommer klagomål ska detta gå genom föreningens kontaktperson. När vårdnadshavare bokar städ så gör de det direkt via städfirman. 
+
+
+      **Presentansvarig**
+        * Köpa presenter till pedagogerna vid jul, sommar och påsk samt när en pedagog fyller jämt.
+        * Samla in presentkassa en gång per termin.
