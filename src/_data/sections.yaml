@@ -2,15 +2,11 @@ sections:
   - title: Föräldrainsats
     image: static/img/pedagogy.jpg
     url: /parents
-    desc: >-
-      Vad innebär det att vara med i ett föräldrakooperativ? Du som förälder har
+    desc: Vad innebär det att vara med i ett föräldrakooperativ? Du som förälder har
       städjour cirka en dag i månaden, är med i en arbetsgrupp och deltar i
       olika familjeaktiviteter. Vi följer maxtaxans regler
       [](https://www.sagolunden.se/avgifter.html)som ni hittar här
-      \[placeholder]. 
-
-
-      [Mer om arbetsinsatsen.](https://www.sagolunden.se/foraldra.html)
+      \[placeholder].
     id: parents
   - title: En hållbar miljö
     image: static/img/pedagogy.jpg
@@ -23,3 +19,14 @@ sections:
       måltider är det ekologiska vårt första val i så lång utsträckning som
       möjligt.
     id: environment
+  - title: Tyra
+    desc: >-
+      Vi använder oss av verktyget Tyra, en super smidig app där vi för
+      kommunikation, dokumentation och närvaro för barnen. Med allt på en
+      platform blir tyra även en del av vårt systimatiska kvalitetsarbete.
+
+
+      Funktioner som blogg, barnets låda, händelser, anteckningar och mycket mer som förenklar för både barn, vårdnadshavare och pedagoger.
+    url: https://tyra.io/sv/
+    id: tyra
+    image: /static/img/tyra.jpg

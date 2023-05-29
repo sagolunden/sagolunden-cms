@@ -87,7 +87,7 @@ collections:
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Permalink", name: "permalink", widget: "string" }
-          - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+          - label: "Navigation"
             name: "eleventyNavigation"
             widget: "object"
             fields:
@@ -106,6 +106,11 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Beskrivning, name: desc, widget: markdown }
+      - name: "education"
+        label: "Utbildning"
+        file: "src/_data/education.yaml"
+        fields:
+          - { label: "Beskrivning", name: "description", widget: markdown }
       - name: "contact"
         label: "Contact"
         file: "src/_data/contact.yaml"

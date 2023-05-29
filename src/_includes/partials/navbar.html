@@ -54,6 +54,7 @@
         <li class="nav__item mr-16">
           <a
             @click="isOpen = false"
+            {% if page.url == item.url %} aria-current="page" class="underline rounded-2xl" {% endif %}
             class="text-ml inline-block text-gray-800 no-underline hover:text-indigo-500"
             href="{{ item.url }}"
             >{{ item.text }}</a

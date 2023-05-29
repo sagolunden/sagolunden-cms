@@ -2,10 +2,10 @@ items:
   - text: Hem
     url: /
   - text: Utbildning
-    url: /#pedagogy
+    url: /education/
   - text: Föräldrainsats
     url: /#parents
   - text: Tyra
-    url: "#####placholder"
+    url: /#tyra
   - text: Kontakta oss
-    url: "####plaholder"
+    url: /#contact
