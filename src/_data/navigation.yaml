@@ -2,10 +2,10 @@ items:
   - text: Hem
     url: /
   - text: Föräldrainsats
-    url: "#parents"
+    url: /#parents
   - text: Pedagogik
-    url: "#pedagogy"
+    url: /#pedagogy
   - text: Verksamheten
     url: /organisation
   - text: Kontakta oss
-    url: "#contact"
+    url: /#contact
