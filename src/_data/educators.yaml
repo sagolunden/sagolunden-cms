@@ -1,0 +1,16 @@
+educators:
+  - name: Marie Andersson
+    desc: Arbetat som rektor och förskolelärare på Sagolunden sen 2013
+    avatar: /static/img/bluey.jpg
+  - name: Jessica Olin
+    desc: Arbetat som barnskötare på Sagolunden sen 2006
+    avatar: /static/img/bluey.jpg
+  - name: Fredrik Johansson
+    desc: Arbetat som barnskötare på Sagolunden sen 2007
+    avatar: /static/img/bluey.jpg
+  - name: Veronica Frisk
+    desc: Arbetat som förskolelärare på Sagolunden sen 2017
+    avatar: /static/img/bluey.jpg
+  - name: Kelly Edjemyr
+    desc: Arbetat som barnskötare på Sagolunden sen 2021
+    avatar: /static/img/bluey.jpg

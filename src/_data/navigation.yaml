@@ -5,6 +5,8 @@ items:
     url: /education/
   - text: Verksamheten
     url: /organisation/
+  - text: Personal
+    url: /educators/
   - text: Tyra
     url: /#tyra
   - text: Kontakta oss

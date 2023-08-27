@@ -1,0 +1,20 @@
+---
+layout: default
+title: Sagolunden | Personal
+path: educators
+---
+
+<div class="text-center container">
+    <h1>Personal</h1>
+    <div class="flex h-96 gap-8">
+        {% if educators %} {% for educator in educators.educators %}
+
+        <div class="self-center">
+            <h2>{{ educator.name }}</h2>
+            <p>{{ educator.desc }}</p>
+        </div>
+    
+        {% endfor %} {% endif %}
+    </div>
+
+</div>
