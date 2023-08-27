@@ -46,6 +46,7 @@ collections:
             widget: list
             fields:
               - { label: "Namn", name: "name", widget: "string" }
+              - { label: "Profil", name: "avatar", widget: "image"}
               - { label: "Beskrivning", name: "desc", widget: "string" }
   - label: "Settings"
     name: "settings"
