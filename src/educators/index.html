@@ -4,17 +4,23 @@ title: Sagolunden | Personal
 path: educators
 ---
 
+{% set corners = ['tl', 'tr', 'bl', 'br'] %}
+
+
 <div class="text-center container">
     <h1>Personal</h1>
-    <div class="flex h-96 gap-8">
-        {% if educators %} {% for educator in educators.educators %}
+    <div class="flex">
+        <div class="mx-auto my-20 flex flex-row flex-wrap gap-16">
+            {% for educator in educators.educators %}
 
-        <div class="self-center">
-            <h2>{{ educator.name }}</h2>
-            <p>{{ educator.desc }}</p>
+            {% set getRandomCorner = corners | random %}
+
+            <div class="w-48">
+                <img src="{{ educator.avatar }}" class="rounded-tl-6xl rounded-{{getRandomCorner}}-full mb-4"/>
+                <h2>{{ educator.name }}</h2>
+                <p class="my-2">{{ educator.desc }}</p>
+            </div>
+            {% endfor %}
         </div>
-    
-        {% endfor %} {% endif %}
     </div>
-
 </div>
