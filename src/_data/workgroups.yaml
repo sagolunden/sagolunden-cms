@@ -107,25 +107,14 @@ workgroups:
     desc: Aktivitetsgruppen ansvarar för kooperativets sociala aktiviteter såsom vår
       årliga kickoff i augusti, julpyssel, after-works, lekplatshäng och
       familjeutflykter.
-  - desc: >-2
-        * Ansvarar för allmänt underhåll av lokalerna och fast inredning.
-        * Ansvarar för snöskottning enligt rullande schema och sopning vid behov.
-        * Ansvarar för förskolans utrustning och fast interiör på gården, samt för skogen. Medlemmarna fixar själva eller tar kontakt med berörd part, BRF eller kommunen.
-        * Ansvarar för underhåll av diskmaskinen.
-        * Har koll på och dokumenterar vem som ansvarar för vad gällande skogen, gården och interiör. Förskolan, BRF eller kommunen.
-        * Inköp av inventarier i enlighet med inventarielistan.
-        * Slänger skräp på tippen.
-        * Ansvarar för att en egenkontroll av skogen genomförs årligen, se avtalet för mer information.
-        * Konstruerar, bygger och syr vid behov.
-        * Ansvarar för att planera och genomföra en obligatorisk fixardag med en representant per familj per år. Har möjlighet att kalla till ytterligare en fixardag per år, dock ej obligatorisk.
-        * Fixarlista – uppdateras och betas av kontinuerligt av gruppen och ansvarig personal.
-        * Skriv rapport om gruppens arbete till varje styrelsemöte.
-        * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.
-        * Den av stämman utsedda sammankallande ansvarar för att:
-          * kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten. Mötesanteckningar sparas i gruppens mapp på Nextcloud.
-          * blir årligen tilldelad en budget av kassören som gruppen ansvarar för att följa.
-          * administrera Sagolundens företagskonton på Jula och Byggmax.
-          * ha regelbunden kontakt med fixargruppsansvarig i personalen.
+  - desc: >-
+      Fixargruppen ansvarar för allmänt underhåll av lokalerna och fast
+      inredning samt sköter snöskottning  under vintern enligt rullande schema
+      och sopning vid behov. Gruppen år kooperativets vaktmästare som även styr
+      upp vårt långsiktiga underhållsarbete och investeringar/projekt.
+
+
+      Fixargruppen ansvarar även fäör att planera och genomföra en obligatorisk fixardag med en representant per familj per år.
     name: Fixargruppen
   - name: Miljögruppen
     desc: >-2
