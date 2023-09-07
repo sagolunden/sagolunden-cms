@@ -20,13 +20,13 @@ collections:
         file: "src/_data/parent_engagement.yaml"
         fields:
           - { label: "Beskrivning", name: "description", widget: "string" }
-      - label: "Arbetsgrupper"
+      - label: "Verksamheten"
         name: "workgroups"
         file: "src/_data/workgroups.yaml"
         editor:
           preview: false
         fields:
-          - label: "Arbetsgrupper"
+          - label: "Verksamheten"
             name: "workgroups"
             widget: list
             fields:
