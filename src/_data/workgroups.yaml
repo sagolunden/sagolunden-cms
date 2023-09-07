@@ -104,22 +104,9 @@ workgroups:
 
       Rekryteringsansvarig har en viktig uppgift i att rekrytera nya familjer till kooperativet. Hen har hand om kölistan, träffar nya familjer, informerar om verksamheten och har en dialog med personalen om hur många barn vi kan ha, samt har koll på de regelverk vi behöver följa utifrån skollagen. Inskolning planeras ihop med pedagogerna.
   - name: Aktivitetsgruppen
-    desc: >-2
-        * Den av stämman utsedda sammankallande ansvarar för att kalla till möten, att anteckningar förs samt att skicka rapport till styrelsen inför styrelsemöten.  
-        * Ansvarar för bokning och planering av kick-off helg i augusti.       
-        * Har regelbunden kontakt med aktivitetsgruppsansvarig i personalen.      
-        * Ansvarar för minst en aktivitet per år för vårdnadshavare och personal på kvällstid utan barn. T.ex Aw, bowling, fest. 
-        * Ansvarar för och arrangerar aktiviteter för vårdnadshavare och barn. Stäm av med personalen ang starttid. Meddela alla vårdnadshavare om verksamheten stänger före ordinarie tid. 
-          * Julpyssel i slutet av november/början av december. 
-          * Familjeutflykt i Göteborgsområdet i april/maj. Start kl. 	14.30.         
-          * Gårdsfest på gården i juni. Planeras tillsammans med personalen. Starttid kl. 15. 
-        * Stäm av matinköp inför aktivitet med förskolans matpolicy och deltagarnas allergier/ specialkost.    
-        * Föreslå och genomföra andra aktiviteter själva eller tillsammans med personalen efter godkännande från styrelsen.     
-      * Skriv rapport om gruppens arbete till varje styrelsemöte.      
-
-      * Skriv årsberättelse och sammanfatta gruppens arbete senast en månad inför årsstämman.       
-
-      * Föra mötesanteckningar på alla möten. Anteckningarna lagras i gruppens mapp på nextcloud.
+    desc: Aktivitetsgruppen ansvarar för kooperativets sociala aktiviteter såsom vår
+      årliga kickoff i augusti, julpyssel, after-works, lekplatshäng och
+      familjeutflykter.
   - desc: >-2
         * Ansvarar för allmänt underhåll av lokalerna och fast inredning.
         * Ansvarar för snöskottning enligt rullande schema och sopning vid behov.
